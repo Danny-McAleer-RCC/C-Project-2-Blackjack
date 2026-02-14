@@ -3,7 +3,7 @@
     Date: Febuary 14, 2026 1:23 AM
     Purpose: Project 2: Blackjack
     Version 5
-    Version Notes: added a vector and search and fixed instant busts
+    Version Notes: added a vector to search and fixed instant busts
     
 */
 
