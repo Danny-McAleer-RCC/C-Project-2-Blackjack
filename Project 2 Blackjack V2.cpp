@@ -26,7 +26,7 @@ using namespace std;
 void rule();//shows player rules
 void ybetgam(string pName, float &bal, int &winP, int &lossP, int &gameNum);//betting enabled
 void nbetgam(string pName, int &winP, int &lossP, int &gameNum);//betting disabled
-int drawCard(string &cardName);//face cards and suits
+int drawC(string &cardNam);//face cards and suits
 
 //Execution Begins Here
 int main(int argv,char **argc){
@@ -208,18 +208,18 @@ void ybetgam(string pName, float &bal, int &winP, int &lossP, int &gameNum){//ga
         cout<<endl<<"Game "<<gameNum<<":"<<endl;
     
         //player cards
-        cVal = drawCard(cName);//player card 1
+        cVal = drawC(cName);//player card 1
         totalP += cVal;
         cout<<pName<<" Card 1: "<<cName<<endl;
-        cVal = drawCard(cName);//player card 2
+        cVal = drawC(cName);//player card 2
         totalP += cVal;
         cout<<pName<<" Card 2: "<<cName<<endl<<endl;
 
         //dealer cards
-        cVal = drawCard(cName);//dealer card 1
+        cVal = drawC(cName);//dealer card 1
         totalD += cVal;
         cout<<"Dealer Card 1: "<<cName<<endl;
-        cVal = drawCard(cName);//dealer card 2
+        cVal = drawC(cName);//dealer card 2
         totalD += cVal;
         cout<<"Dealer Card 2: "<<cName<<endl<<endl;
 
@@ -279,7 +279,7 @@ void ybetgam(string pName, float &bal, int &winP, int &lossP, int &gameNum){//ga
                 cin>>stdOrhi;//ask user if they want to hit or stand
 
                 if(stdOrhi=='h' || stdOrhi=='H'){//if player hits
-                    cVal = drawCard(cName);//player card 3+
+                    cVal = drawC(cName);//player card 3+
                     totalP += cVal;
                     pCarNum++;
                     cout<<endl<<pName<<"'s Card "<<pCarNum<<": "<<cName<<endl;
@@ -293,7 +293,7 @@ void ybetgam(string pName, float &bal, int &winP, int &lossP, int &gameNum){//ga
 
         while(totalD < 17){//dealer stands on 17
             if(stopgam == false){
-                cVal = drawCard(cName);//dealer card 3+
+                cVal = drawC(cName);//dealer card 3+
                 totalD += cVal;
                 dCarNum++;
                 cout<<endl<<"Dealer Card "<<dCarNum<<": "<<cName<<endl;
@@ -428,18 +428,18 @@ void nbetgam(string pName, int &winP, int &lossP, int &gameNum){//games without 
         cout<<endl<<"Game "<<gameNum<<":"<<endl;
     
         //player cards
-        cVal = drawCard(cName);//player card 1
+        cVal = drawC(cName);//player card 1
         totalP += cVal;
         cout<<pName<<" Card 1: "<<cName<<endl;
-        cVal = drawCard(cName);//player card 2
+        cVal = drawC(cName);//player card 2
         totalP += cVal;
         cout<<pName<<" Card 2: "<<cName<<endl<<endl;
 
         //dealer cards
-        cVal = drawCard(cName);//dealer card 1
+        cVal = drawC(cName);//dealer card 1
         totalD += cVal;
         cout<<"Dealer Card 1: "<<cName<<endl;
-        cVal = drawCard(cName);//dealer card 2
+        cVal = drawC(cName);//dealer card 2
         totalD += cVal;
         cout<<"Dealer Card 2: "<<cName<<endl<<endl;
 
@@ -477,7 +477,7 @@ void nbetgam(string pName, int &winP, int &lossP, int &gameNum){//games without 
                 cin>>stdOrhi;//ask user if they want to hit or stand
 
                 if(stdOrhi=='h' || stdOrhi=='H'){//if player hits
-                    cVal = drawCard(cName);//player card 3+
+                    cVal = drawC(cName);//player card 3+
                     totalP += cVal;
                     pCarNum++;
                     cout<<endl<<pName<<"'s Card "<<pCarNum<<": "<<cName<<endl;
@@ -491,7 +491,7 @@ void nbetgam(string pName, int &winP, int &lossP, int &gameNum){//games without 
 
         while(totalD < 17){//dealer stands on 17
             if(stopgam == false){
-                cVal = drawCard(cName);//dealer card 3+
+                cVal = drawC(cName);//dealer card 3+
                 totalD += cVal;
                 dCarNum++;
                 cout<<endl<<"Dealer Card "<<dCarNum<<": "<<cName<<endl;
@@ -560,30 +560,30 @@ void nbetgam(string pName, int &winP, int &lossP, int &gameNum){//games without 
         }
 }
 
-int drawCard(string &cardName){
+int drawC(string &cardNam){
     int rank = rand() % 13 + 1; // 1 to 13
     int suitNum = rand() % 4;   // 0 to 3
     string suits[] = {"Hearts", "Diamonds", "Clubs", "Spades"};
-    string rankName;
+    string rankNam;
     int value;
 
     if(rank == 1){
-        rankName = "Ace";
-        value = 11; // You can add logic later to change this to 1 if player busts
+        rankNam = "Ace";
+        value = 11;
     }else if(rank == 11){
-        rankName = "Jack";
+        rankNam = "Jack";
         value = 10;
     }else if (rank == 12){
-        rankName = "Queen";
+        rankNam = "Queen";
         value = 10;
     }else if(rank == 13){
-        rankName = "King";
+        rankNam = "King";
         value = 10;
     }else{
-        rankName = to_string(rank);
+        rankNam = to_string(rank);
         value = rank;
     }
 
-    cardName = rankName + " of " + suits[suitNum];
+    cardNam = rankNam + " of " + suits[suitNum];
     return value;
 }
