@@ -1,0 +1,4 @@
+User Danny played 2 games of Blackjack and won 1 times and lost 0 times, and had a final balance of $2200.00.
+User Danny played 1 games of Blackjack and won 0 times and lost 1 times, and had a final balance of $1000.00.
+User Danny played 2 games of Blackjack and won 1 times and lost 1 times, and had a final balance of $2000.00.
+User Danny played 0 games of Blackjack and won 0 times and lost 0 times, and had a final balance of $1000.00.
