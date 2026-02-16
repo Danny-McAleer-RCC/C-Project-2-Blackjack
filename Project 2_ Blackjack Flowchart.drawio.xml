@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="QH73snNqWAkuRuxRJB3i">
+    <mxGraphModel dx="1941" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-6" edge="1" parent="1" source="R4fjjNoO6t-1fFCI0GAo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="R4fjjNoO6t-1fFCI0GAo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);gradientColor=none;" value="&lt;div&gt;Author: Danny McAleer&lt;/div&gt;&lt;div&gt;Date: Febuary 14, 2026 9:50 PM&lt;/div&gt;&lt;div&gt;Purpose: Project 2: Blackjack&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Version 12&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="255" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-3" edge="1" parent="1" source="R4fjjNoO6t-1fFCI0GAo-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="R4fjjNoO6t-1fFCI0GAo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;//System Libraries&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;cstdlib&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;ctime&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;iomanip&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;cmath&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;fstream&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;#include &amp;lt;string&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;using namespace std;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-8" edge="1" parent="1" source="R4fjjNoO6t-1fFCI0GAo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="R4fjjNoO6t-1fFCI0GAo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Main&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="60" x="90" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R4fjjNoO6t-1fFCI0GAo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;//Declare Varibles&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="50" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Q9ohhCT4KSNs3_jaAfAc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-2" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Q9ohhCT4KSNs3_jaAfAc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;cout&amp;lt;&amp;lt;&quot;Welcome to Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;What is your name?&quot;&amp;lt;&amp;lt;endl;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;pName;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="240" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-7" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;ifstream inFile&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;(&quot;Blackjack_Data.txt&quot;);&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="35" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-8" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(!inFile)" vertex="1">
+          <mxGeometry height="40" width="80" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-10" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;&quot;Error opening file! Closing program.&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;exit(EXIT_FAILURE);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-12" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;vector&amp;lt;string&amp;gt; players;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; while(inFile&amp;gt;&amp;gt;fName){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;players.push_back(fName);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-15" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-18" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;match = findP(players, pName);&lt;/div&gt;&lt;div&gt;bublSrt(players);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inFile.close();&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="60" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-16" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;if(match)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-19" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;Welcome back, &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;!&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-21" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-17" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&amp;nbsp;rule(rulesho = true);" vertex="1">
+          <mxGeometry height="40" width="140" x="50" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-23" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Start game of blackjack? Y/N&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;play;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-25" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(play==&#39;Y&#39; || play == &#39;y&#39;)" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-27" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;for(int row = 0; row &amp;lt; 4; row++){&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;for(int col = 0; col &amp;lt; 13; col++){&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;deck[row][col] = false;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="10" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-29" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Do you want to allow betting for this game? Y/N&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;betAlow;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="410" x="15" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-32" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-33" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="betting = (betAlow == &#39;y&#39;&amp;nbsp;&lt;div&gt;|| betAlow == &#39;Y&#39;)&amp;nbsp;&lt;div&gt;? true : false;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="240" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-36" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-30" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(betting == true)" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-37" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(betting == false)" vertex="1">
+          <mxGeometry height="55" width="140" x="280" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-39" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-34" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="playgam(pName, bal, winP, lossP, gameNum, totlDra, results, deck);" vertex="1">
+          <mxGeometry height="50" width="190" x="165" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-40" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-35" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="playgam(pName, winP, lossP, gameNum, totlDra, results, deck);" vertex="1">
+          <mxGeometry height="60" width="150" x="270" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-43" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-47" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-38" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cin.ignore(1000, &#39;\n&#39;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Play another game? Y/N&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;play;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="210" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-44" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(bal &amp;gt; 1000000.00)" vertex="1">
+          <mxGeometry height="80" width="100" x="220" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-42" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;&quot;Balance Overflow Warning!&quot;;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="200" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-48" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-45" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(play == &#39;y&#39; || play == &#39;Y&#39;)" vertex="1">
+          <mxGeometry height="80" width="100" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-50" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-46" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="50" width="100" x="270" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-60" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-49" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;There were &quot;&amp;lt;&amp;lt;totlDra&amp;lt;&amp;lt;&quot; draws this session&quot;&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="50" width="170" x="440" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-61" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-62" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-65" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-51" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(netChan &amp;gt; 0)" vertex="1">
+          <mxGeometry height="60" width="95" x="702.5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-64" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-52" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(netChan &amp;lt; 0)" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-63" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else" vertex="1">
+          <mxGeometry height="60" width="60" x="720" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-70" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="160" />
+              <mxPoint x="390" y="160" />
+            </Array>
+            <mxPoint x="450" y="160" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-57" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;&quot;The total change to your balance was: $&quot;&amp;lt;&amp;lt;fabs(netChan)&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="60" width="215" x="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-71" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="265" as="sourcePoint" />
+            <mxPoint x="397.5" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;&quot;The total change to your balance was: -$&quot;&amp;lt;&amp;lt;fabs(netChan)&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="60" width="215" x="417.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-69" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-59" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;&quot;There was no change to your balance.&quot;&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="60" width="192.5" x="417.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-68" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-66" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(gameNum &amp;gt; 0)" vertex="1">
+          <mxGeometry height="60" width="102" x="380" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-78" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-67" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="selcSrt(results, gameNum);" vertex="1">
+          <mxGeometry height="30" width="200" x="520" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-80" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-72" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Sorted Session History:&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for(int i = 0; i &amp;lt; gameNum; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Game &quot;&amp;lt;&amp;lt;(i + 1)&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;results[i]&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="535" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-79" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-73" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Session History&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for(int i = 0; i &amp;lt; gameNum; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Game &quot;&amp;lt;&amp;lt;(i + 1)&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;results[i]&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="500" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-81" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-74" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;&quot;Storage size of results: &quot;&amp;lt;&amp;lt;sizeof(results)&amp;lt;&amp;lt;&quot; bytes&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="520" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-82" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-75" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fstream data(&quot;Blackjack_Data.txt&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; data&amp;lt;&amp;lt;&quot;User &quot;&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; played &quot;&amp;lt;&amp;lt;gameNum&amp;lt;&amp;lt;&quot; games of Blackjack and won &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; times and lost &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; times, and had a final balance of $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;&quot;.&quot;;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="327" x="471.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-83" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-76" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Goodbye &quot;&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;!&quot;&amp;lt;&amp;lt;endl;" vertex="1">
+          <mxGeometry height="45" width="180" x="545" y="837.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-85" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="return 0;" vertex="1">
+          <mxGeometry height="35" width="70" x="600" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-87" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-84" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Page 2" vertex="1">
+          <mxGeometry height="80" width="80" x="595" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-99" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-103" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-86" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="void rule(bool rulesho)" vertex="1">
+          <mxGeometry height="40" width="130" x="570" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-100" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;//Declare Varibles&lt;/div&gt;&lt;div&gt;char rules;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="417.5" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-101" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-89" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&amp;nbsp;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Do you want to read the rules of Blackjack? Y/N&quot;&amp;lt;&amp;lt;endl;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;rules;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="190" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-94" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-95" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-90" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="switch(rules)" vertex="1">
+          <mxGeometry height="50" width="90" x="50" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-96" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-91" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="case &#39;y&#39;&lt;div&gt;case &#39;Y&#39;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="10" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-98" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-92" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="case &#39;n&#39;&lt;div&gt;case &#39;N&#39;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-93" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Rules of Blackjack:&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;\&quot;The object of the game is to win money by creating card totals higher than those of the dealer&#39;s hand but not exceeding 21, or by stopping at a total in the hope that the dealer will bust.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Number cards count as their number, the jack, queen, and king (\&quot;face cards\&quot; or \&quot;pictures\&quot;) count as 10, and aces count as either 1 or 11 depending on whether or not counting it as 11 would cause a bust.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;If a player exceeds 21 points, they bust and automatically lose. A total of 21 on the starting two cards is called a \&quot;blackjack\&quot; or \&quot;natural,\&quot;[11][12] and is the strongest hand.[13][14]\&quot;&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;\t-Wikipedia&quot;&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&amp;nbsp;&lt;/div&gt;&lt;div&gt;break;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="485" x="10" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-97" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;break;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="100" x="220" y="1187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-105" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-102" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="void playgam(string pName, float &amp;amp;bal, int &amp;amp;winP, int &amp;amp;lossP, int &amp;amp;gameNum, int &amp;amp;totlDra, char results[], bool deck[][13]){//games with bets" vertex="1">
+          <mxGeometry height="70" width="465" x="370" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-107" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="//Declare Varibles" vertex="1">
+          <mxGeometry height="30" width="120" x="535" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-113" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-106" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;gameNum++;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Game &quot;&amp;lt;&amp;lt;gameNum&amp;lt;&amp;lt;&quot;:&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="670" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-116" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-108" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(bal &amp;gt; 0)" vertex="1">
+          <mxGeometry height="50" width="87" x="735" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-119" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-110" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(bet == &#39;y&#39; || bet == &#39;Y&#39;)" vertex="1">
+          <mxGeometry height="50" width="160" x="510" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-112" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Bet? Y/N&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;bet;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="230" x="500" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-117" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.303;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-122" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-118" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Enter bet amount: &quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;cin&amp;gt;&amp;gt;betAmt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-123" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-126" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(betAmt &amp;gt; bal || betAmt &amp;lt;= 0)" vertex="1">
+          <mxGeometry height="30" width="200" x="640" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-121" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Invalid bet amount! Please try again&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cin&amp;gt;&amp;gt;betAmt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="457.5" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-124" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;//player cards&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//player card 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalP += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Card 1: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//player card 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalP += cVal;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Card 2: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="310" x="140" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-125" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.084;entryY=1.129;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-132" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-127" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;//dealer cards&lt;/div&gt;&lt;div&gt;cVal = drawC(cName, totlDra, deck);//dealer card 1&lt;/div&gt;&lt;div&gt;totalD += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Card 1: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//dealer card 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalD += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Card 2: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="310" x="5" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-129" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.158;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1477" />
+              <mxPoint x="130" y="1530" />
+              <mxPoint x="120" y="1530" />
+              <mxPoint x="120" y="1580" />
+              <mxPoint x="54" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-133" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-130" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has: &quot;&amp;lt;&amp;lt;totalP&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer has: &quot;&amp;lt;&amp;lt;totalD&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="320" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-135" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-137" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1705" />
+              <mxPoint x="360" y="1740" />
+              <mxPoint x="348" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-131" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(totalP == 21)//player starts with 21" vertex="1">
+          <mxGeometry height="60" width="230" x="330" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-134" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; won: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="290" x="560" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-141" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-136" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == 21)//dealer starts with 21" vertex="1">
+          <mxGeometry height="60" width="250" x="285" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-138" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; lost: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="322.5" x="520" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-142" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-144" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="1920" />
+              <mxPoint x="541" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-139" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP &amp;gt; 21)//player busts at start" vertex="1">
+          <mxGeometry height="50" width="245" x="275" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-146" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-140" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;gt; 21)//dealer busts at start" vertex="1">
+          <mxGeometry height="50" width="230" x="40" y="1735" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-143" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; lost: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="290" x="536.25" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-148" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-145" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; won: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="300" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-150" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(totalP &amp;lt; 21 &amp;amp;&amp;amp; !pStand)&lt;div&gt;//if no instant blackjacks or busts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="185" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-149" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(stopgam==false)" vertex="1">
+          <mxGeometry height="50" width="110" x="190" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-156" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-151" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Press &#39;h&#39; to hit or &#39;s&#39; to stand&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cin&amp;gt;&amp;gt;stdOrhi;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="310" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-152" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.909;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-158" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-161" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-153" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(stdOrhi==&#39;h&#39; || stdOrhi==&#39;H&#39;)" vertex="1">
+          <mxGeometry height="50" width="135" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-157" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Card &quot;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;pCarNum&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has: &quot;&amp;lt;&amp;lt;totalP&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="247" x="140" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-162" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-159" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Else" vertex="1">
+          <mxGeometry height="50" width="60" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-164" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-160" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="pStand = true;" vertex="1">
+          <mxGeometry height="30" width="100" x="65" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-166" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(totalD &amp;lt; 17)//dealer stands on 17" vertex="1">
+          <mxGeometry height="30" width="230" x="180" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-169" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-165" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Card &quot;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;dCarNum&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer has: &quot;&amp;lt;&amp;lt;totalD&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="215" x="305" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-174" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-167" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Page 3" vertex="1">
+          <mxGeometry height="80" width="80" x="750" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-168" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(totalP &amp;gt; 21)//player busts" vertex="1">
+          <mxGeometry height="50" width="170" x="370" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-172" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-170" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; lost: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="322.5" x="420" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-171" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-176" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-178" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-173" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;gt; 21)//dealer busts" vertex="1">
+          <mxGeometry height="60" width="200" x="650" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-175" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; won: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="295" x="337.5" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-180" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-179">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="681" y="2340" />
+              <mxPoint x="470" y="2340" />
+              <mxPoint x="470" y="2331" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-182" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-177" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP &amp;lt; 21 &amp;amp;&amp;amp; totalP &amp;gt; totalD)//player is closer to 21" vertex="1">
+          <mxGeometry height="70" width="225" x="625" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-179" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; is closer to 21!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; won: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="300" x="20" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-184" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-186" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-181" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;lt; 21 &amp;amp;&amp;amp; totalD &amp;gt; totalP)//dealer is closer to 21" vertex="1">
+          <mxGeometry height="80" width="230" x="620" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-183" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer is closer to 21!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; lost: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="298" x="310" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-188" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-185" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == totalP)//tie" vertex="1">
+          <mxGeometry height="50" width="190" x="595" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-187" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Push (Tie)!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Nobody Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="45" y="2345" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-194" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-189" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP == 21)//player has 21" vertex="1">
+          <mxGeometry height="60" width="220" x="615" y="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-190" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.66;entryY=0.169;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-191" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; won: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="295" x="311.5" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-192" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.961;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-191">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="2535" />
+              <mxPoint x="610" y="2570" />
+              <mxPoint x="627" y="2570" />
+              <mxPoint x="627" y="2590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-196" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-195">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="2630" />
+              <mxPoint x="473" y="2630" />
+              <mxPoint x="473" y="2650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-193" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == 21)//dealer has 21" vertex="1">
+          <mxGeometry height="70" width="205" x="635" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-195" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; lost: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;winloss&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Balance: $&quot;&amp;lt;&amp;lt;fixed&amp;lt;&amp;lt;setprecision(2)&amp;lt;&amp;lt;bal&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="290" x="21.5" y="2510" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-203" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-197" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="void playgam(string pName, int &amp;amp;winP, int &amp;amp;lossP, int &amp;amp;gameNum, int &amp;amp;totlDra, char results[], bool deck[][13])&lt;div&gt;//games without bets&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="345" x="485" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-198" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.736;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-222" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-201" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="//Declare Varibles" vertex="1">
+          <mxGeometry height="30" width="120" x="350" y="2665" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-202" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;gameNum++;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Game &quot;&amp;lt;&amp;lt;gameNum&amp;lt;&amp;lt;&quot;:&quot;&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="315" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-223" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-207" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;//player cards&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//player card 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalP += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Card 1: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//player card 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalP += cVal;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Card 2: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="310" x="10" y="2675" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-208" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-209" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;//dealer cards&lt;/div&gt;&lt;div&gt;cVal = drawC(cName, totlDra, deck);//dealer card 1&lt;/div&gt;&lt;div&gt;totalD += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Card 1: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cVal = drawC(cName, totlDra, deck);//dealer card 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;totalD += cVal;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer Card 2: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="310" x="5" y="2810" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-211" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-212" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has: &quot;&amp;lt;&amp;lt;totalP&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer has: &quot;&amp;lt;&amp;lt;totalD&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="330" y="2770" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-225" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-226" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-215" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(totalP == 21)//player starts with 21" vertex="1">
+          <mxGeometry height="60" width="230" x="320" y="2850" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-231" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-217" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == 21)//dealer starts with 21" vertex="1">
+          <mxGeometry height="60" width="250" x="362.5" y="2910" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-219" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP &amp;gt; 21)//player busts at start" vertex="1">
+          <mxGeometry height="50" width="245" x="392.5" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-234" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-238" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-236">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="3055" />
+              <mxPoint x="215" y="3050" />
+              <mxPoint x="51" y="3050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-221" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;gt; 21)//dealer busts at start" vertex="1">
+          <mxGeometry height="50" width="230" x="241.5" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-224" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="260" x="580" y="2740" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-227" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="205" x="625" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-228" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.057;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-229" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="212" x="631.5" y="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-230" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.054;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-232" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.945;entryY=0.374;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-233" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="35" y="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-240" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-236" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(totalP &amp;lt; 21 &amp;amp;&amp;amp; !pStand)&lt;div&gt;//if no instant blackjacks or busts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="185" x="5" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-242" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-237" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(stopgam==false)" vertex="1">
+          <mxGeometry height="30" width="135" x="210" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-239" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-241" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Press &#39;h&#39; to hit or &#39;s&#39; to stand&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cin&amp;gt;&amp;gt;stdOrhi;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="310" x="5" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-250" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-251" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-252" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(stdOrhi==&#39;h&#39; || stdOrhi==&#39;H&#39;)" vertex="1">
+          <mxGeometry height="50" width="135" x="10" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-253" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Card &quot;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;pCarNum&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has: &quot;&amp;lt;&amp;lt;totalP&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="247" x="150" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-254" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-255" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Else" vertex="1">
+          <mxGeometry height="50" width="60" x="15" y="3230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-256" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-257" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="pStand = true;" vertex="1">
+          <mxGeometry height="30" width="100" x="80" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-258" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="while(totalD &amp;lt; 17)//dealer stands on 17" vertex="1">
+          <mxGeometry height="30" width="230" x="195" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-259" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.301;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-263" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-260" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Card &quot;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;dCarNum&amp;lt;&amp;lt;&quot;: &quot;&amp;lt;&amp;lt;cName&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;cout&amp;lt;&amp;lt;&quot;Dealer has: &quot;&amp;lt;&amp;lt;totalD&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="215" x="397.5" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-261" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.087;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-260">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="3240" />
+              <mxPoint x="380" y="3210" />
+              <mxPoint x="400" y="3210" />
+              <mxPoint x="400" y="3180" />
+              <mxPoint x="416" y="3180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-265" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-262" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if(totalP &amp;gt; 21)//player busts" vertex="1">
+          <mxGeometry height="60" width="150" x="417.5" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-264" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="253" x="587" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-269" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-266" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Page 4" vertex="1">
+          <mxGeometry height="80" width="80" x="485" y="3215" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-267" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.78;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-271" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-273" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-272">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-268" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;gt; 21)//dealer busts" vertex="1">
+          <mxGeometry height="50" width="195" x="645" y="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-270" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer Busts!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="357.5" y="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-272" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP &amp;lt; 21 &amp;amp;&amp;amp; totalP &amp;gt; totalD)//player is closer to 21" vertex="1">
+          <mxGeometry height="80" width="229" x="610" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-274" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; is closer to 21!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="270" x="50" y="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-275" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.893;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-274">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-279" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-282" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-281">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="3483" />
+              <mxPoint x="770" y="3520" />
+              <mxPoint x="781" y="3520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-276" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD &amp;lt; 21 &amp;amp;&amp;amp; totalD &amp;gt; totalP)//dealer is closer to 21" vertex="1">
+          <mxGeometry height="70" width="232" x="550" y="3430" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-277" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.884;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-278" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer is closer to 21!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="273" x="277" y="3430" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-280" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Push (Tie)!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Nobody Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="240" x="15" y="3437.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-285" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-284">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-281" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == totalP)//tie" vertex="1">
+          <mxGeometry height="50" width="185" x="642.5" y="3510" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-283" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.643;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-280">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-287" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-286">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-290" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-284" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalP == 21)//player has 21" vertex="1">
+          <mxGeometry height="50" width="235" x="600" y="3570" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-286" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot; Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="247" x="318" y="3560" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-288" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;cout&amp;lt;&amp;lt;endl&amp;lt;&amp;lt;&quot;Dealer has a Blackjack!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;&quot;Dealer Wins!&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;pName&amp;lt;&amp;lt;&quot;&#39;s Score: &quot;&amp;lt;&amp;lt;winP&amp;lt;&amp;lt;&quot; wins and &quot;&amp;lt;&amp;lt;lossP&amp;lt;&amp;lt;&quot; losses.&quot;&amp;lt;&amp;lt;endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cout&amp;lt;&amp;lt;endl;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="248" x="35" y="3560" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-291" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-293" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-289" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="else if(totalD == 21)//dealer has 21" vertex="1">
+          <mxGeometry height="50" width="215" x="617.5" y="3630" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-295" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-294">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-292" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="int drawC(string &amp;amp;cardNam, int &amp;amp;totlDra, bool deck[][13]){//drawing cards" vertex="1">
+          <mxGeometry height="40" width="237" x="585" y="3700" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-299" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-296">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-294" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="//Declare Varibles&lt;div&gt;int rank, suitNum;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="120" x="460" y="3680" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-300" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-298">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-296" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;do{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rank = rand() % 13;//0 to 12&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; suitNum = rand() % 4;//0 to 3&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }while(deck[suitNum][rank] == true);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="212" x="405.5" y="3780" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-298" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;deck[suitNum][rank] = true;//mark card as drawn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string suits[] = {&quot;Hearts&quot;, &quot;Diamonds&quot;, &quot;Clubs&quot;, &quot;Spades&quot;};//card suits&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string ranks[] = {&quot;Ace&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;Jack&quot;, &quot;Queen&quot;, &quot;King&quot;};//card ranks&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int values[] = {11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10};//card values&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cardNam = ranks[rank] + &quot; of &quot; + suits[suitNum];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totlDra++;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return values[rank];&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="343" x="10" y="3700" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-305" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-313" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-308">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-301" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="bool findP(const vector&amp;lt;string&amp;gt; &amp;amp;v, string name){//linear search" vertex="1">
+          <mxGeometry height="60" width="179" x="620" y="3835" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-302" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.464;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q9ohhCT4KSNs3_jaAfAc-301">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-303" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;for (int i = 0; i &amp;lt; v.size() &amp;amp;&amp;amp; !found; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (v[i] == name) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; found = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return found;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="253" x="247" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-306" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-304" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="//Declare Varibles&lt;div&gt;bool found = false;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="467" y="3870" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-312" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-311">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-317" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-316">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-308" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="void bublSrt(vector&amp;lt;string&amp;gt; &amp;amp;a){//buble sort" vertex="1">
+          <mxGeometry height="40" width="197" x="605" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-315" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-314">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-311" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="//Declare Varibles&lt;div&gt;int n = a.size();&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="497.5" y="4010" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-314" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;for(int i = 0; i &amp;lt; n - 1; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for(int j = 0; j &amp;lt; n - i - 1; j++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(a[j] &amp;gt; a[j + 1]){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; string temp = a[j];//swap&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a[j] = a[j + 1];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a[j + 1] = temp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="225" x="15" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-319" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-318">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-321" edge="1" parent="1" source="Q9ohhCT4KSNs3_jaAfAc-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Q9ohhCT4KSNs3_jaAfAc-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-316" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="void selcSrt(char a[], int n){//selection sort" vertex="1">
+          <mxGeometry height="60" width="145" x="642.5" y="4060" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-318" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;for(int i = 0; i &amp;lt; n - 1; i++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int minIdx = i;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for(int j = i + 1; j &amp;lt; n; j++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if(a[j] &amp;lt; a[minIdx]){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; minIdx = j;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; char temp = a[minIdx];//swap found minimum element withfirst element&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a[minIdx] = a[i];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a[i] = temp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="242" x="20" y="4110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9ohhCT4KSNs3_jaAfAc-320" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="The End" vertex="1">
+          <mxGeometry height="80" width="80" x="675" y="4260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
